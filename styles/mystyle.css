@@ -133,14 +133,12 @@ header {
     text-align: center;
 }
 
-.formovingbtn {
-    height: 270px;
-    max-width: 80%;
-    margin: auto;
-    cursor: ew-resize;
-    /* border: 1px solid white; */
+.viewmorebutton{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
 .viewmore {
     color: white;
     border: 1px solid white;
@@ -462,12 +460,7 @@ blockquote cite {
     border: none;
     padding: 0;
 }
-
-
-
-
-
-.owl-carousel button.owl-dot span {
+.owl-dot span {
     background: rgba(0, 0, 0, 0);
     width: 14px;
     height: 14px;
@@ -1200,6 +1193,16 @@ h4 {
     padding: 0 20px;
     /* margin-top: 2; */
     border-top: 3px solid white;
+}
+.owl-dot span {
+    background: rgba(0, 0, 0, 0);
+    width: 14px;
+    height: 14px;
+    border: 3px solid #fff;
+    transform: rotate(45deg);
+    display: block;
+    margin: 5px 7px;
+    opacity: 0.5;
 }
 
 .activenav {
